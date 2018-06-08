@@ -6,7 +6,7 @@ install:
 - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
 services:
-- mysqldb
+- mysql
 deploy:
    provider: cloudfoundry
    username: patelshyamji4@gmail.com
